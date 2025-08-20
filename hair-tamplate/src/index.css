@@ -66,3 +66,85 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --background: 35 20% 98%;
+    --foreground: 25 25% 15%;
+
+    --card: 35 20% 98%;
+    --card-foreground: 25 25% 15%;
+
+    --popover: 35 20% 98%;
+    --popover-foreground: 25 25% 15%;
+
+    --primary: 35 65% 55%;
+    --primary-foreground: 35 20% 98%;
+
+    --secondary: 25 30% 92%;
+    --secondary-foreground: 25 25% 25%;
+
+    --muted: 25 15% 90%;
+    --muted-foreground: 25 15% 45%;
+
+    --accent: 15 85% 65%;
+    --accent-foreground: 35 20% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+    --destructive-foreground: 35 20% 98%;
+
+    --border: 25 20% 85%;
+    --input: 25 20% 85%;
+    --ring: 35 65% 55%;
+
+    --radius: 0.75rem;
+
+    /* Custom salon design tokens */
+    --gold: 35 65% 55%;
+    --gold-light: 35 55% 75%;
+    --gold-dark: 35 75% 35%;
+    --coral: 15 85% 65%;
+    --coral-light: 15 75% 80%;
+    --warm-cream: 35 20% 98%;
+    --warm-brown: 25 25% 15%;
+    --warm-brown-light: 25 15% 45%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--gold)) 0%, hsl(var(--coral)) 100%);
+    --gradient-warm: linear-gradient(180deg, hsl(var(--warm-cream)) 0%, hsl(var(--gold-light) / 0.1) 100%);
+    --gradient-accent: linear-gradient(45deg, hsl(var(--coral-light)) 0%, hsl(var(--gold-light)) 100%);
+    
+    /* Shadows */
+    --shadow-warm: 0 10px 30px -5px hsl(var(--gold) / 0.2);
+    --shadow-elegant: 0 4px 20px -2px hsl(var(--coral) / 0.15);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
